@@ -22,17 +22,10 @@ const backup = {
 }
 const totalizador = {
     filtrarEtotalizarCelulas(inputTarget) {
-        // Total Grupo
-        let classNameDosOperandos = inputTarget.dataset.totalgrupo;
+        let classNameDosOperandos = inputTarget.dataset.total;
         inputTarget.classList.add(`${classNameDosOperandos}`);  
         let operandos = document.querySelectorAll(`.${classNameDosOperandos}`);
-        let celulaDeSaida = document.querySelector(`.${inputTarget.dataset.totalgrupooutput}`);
-        celulaDeSaida.value = this.somar(operandos);
-        // Total Geral 
-        classNameDosOperandos = inputTarget.dataset.totalgeral;
-        inputTarget.classList.add(`${classNameDosOperandos}`);
-        operandos = document.querySelectorAll(`.${classNameDosOperandos}`);
-        celulaDeSaida = document.querySelector(`.${inputTarget.dataset.totalgeraloutput}`);
+        let celulaDeSaida = document.querySelector(`.${inputTarget.dataset.totaloutput}`);
         celulaDeSaida.value = this.somar(operandos);
     },
     somar(celulasPorTotalizar) {
@@ -44,7 +37,7 @@ const totalizador = {
     },
 }
 function escutarEventos() {
-    const inputsCelulares = document.querySelectorAll("[data-total], .input-celular--focus");
+    const inputsCelulares = document.querySelectorAll("[data-total]");
     inputsCelulares.forEach( inputCelular => {
         inputCelular.addEventListener("input", () => {
             totalizador.filtrarEtotalizarCelulas(inputCelular);

@@ -110,7 +110,6 @@
     grid-template-columns: 30px 210px repeat(2, 160px 40px) 80px calc(40px * 12);
     margin-left: 30px;
 }
-/*
 @media screen {
     .ficha__body__header {
         position: sticky;
@@ -121,7 +120,7 @@
     .body-com-topo-propaganda .ficha__body__header {
         top: 36px;
     }
-}*/
+}
 .ficha__header__col-1 {
     flex-direction: column;
     position: relative;
@@ -198,6 +197,14 @@ div:hover > .ficha__header__indicador--rotate {
     display: grid;
     grid-template-rows: repeat(4, 100px);
 }
+@media screen {
+    .ficha__col-de-indicadores {
+        position: sticky;
+        left: -15px;
+        background-color: var(--yt);
+        margin-right: -2px;
+    }
+}
 .ficha__num-de-linha.--highlight {
     background-color: var(--orange);
     color: var(--cor-de-texto);
@@ -230,6 +237,12 @@ div:hover > .ficha__header__indicador--rotate {
 .input--bg-color-dark {
     background-color: var(--fullblack);
     color: var(--yt)
+}
+.input--fs-small {
+    font-size: 12px;
+}
+.input--fs-smaller {
+    font-size: 11px;
 }
 .celula-nao-aplicavel {
     background-color: var(--fullblack);

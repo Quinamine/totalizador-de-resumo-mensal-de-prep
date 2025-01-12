@@ -27,11 +27,14 @@ function destacarCelulasComConteudoOmisso() {
     const celulas = document.querySelectorAll("[data-total], .input-celular--focus, [readonly]");
     let celulasSaturadas = 0;
     for(const c of celulas) {
+        c.classList.remove("input--fs-small");
+        c.classList.remove("input--fs-smaller");
         c.classList.remove("input--bg-color-danger");
-        if(c.clientWidth < 68 && c.value.length > 7) {
-            c.classList.add("input--bg-color-danger");
-            celulasSaturadas++;
-        } else if(c.clientWidth < 125 && c.value.length > 13) {
+        if(c.value.length > 4 && c.value.length < 6) {
+            c.classList.add("input--fs-small");
+        } else if(c.value.length === 6) {
+            c.classList.add("input--fs-smaller");
+        } else if(c.value.length > 6) {
             c.classList.add("input--bg-color-danger");
             celulasSaturadas++;
         }

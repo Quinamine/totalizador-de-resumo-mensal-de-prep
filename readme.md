@@ -18,7 +18,7 @@ O **Totalizador de Resumo Mensal de PrEP** é um serviço online gratuito que au
 
 * Um celular ou computador com acesso à internet;
 
-* Ter colhido os dados de todos os indicadores da ficha nas respectivas fontes primárias (livro(s) de registo diário das actividades de apoio psicossocial e prevenção positiva) da sua Unidade Sanitária;
+* Ter colhido os dados de todos os indicadores da ficha nas respectivas fontes primárias (livro(s) de registo) da sua Unidade Sanitária;
 
 * E por fim, preencher os dados nas células correspondentes em função das variáveis (indicador, sexo e faixa etária) e consequentemente os respectivos totais são, em tempo real, correcta e automaticamente calculados.
 

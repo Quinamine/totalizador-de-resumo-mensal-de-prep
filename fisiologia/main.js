@@ -41,7 +41,6 @@ function escutarEventos() {
     inputsCelulares.forEach( inputCelular => {
         inputCelular.addEventListener("input", () => {
             totalizador.filtrarEtotalizarCelulas(inputCelular);
-            totalizador.totalizarPacientesQueTransitam(inputCelular);
         });
         inputCelular.value !== "" && totalizador.filtrarEtotalizarCelulas(inputCelular);
     });

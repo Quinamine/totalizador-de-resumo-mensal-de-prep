@@ -283,6 +283,7 @@ div:hover > .ficha__header__indicador--rotate {
 @media print {
     .ficha--validacao {
         margin-top: 30px !important;
+        page-break-before: always;
     }
 }
 .ficha-validacao__header {

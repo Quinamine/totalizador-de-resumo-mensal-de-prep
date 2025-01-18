@@ -894,7 +894,7 @@ details[open] .details__summary {
 }
 @media print {
     @page {
-        margin: .5cm;
+        margin: .5cm .5cm .4cm .5cm;
         size: A4 landscape;
     }
     .--no-print {

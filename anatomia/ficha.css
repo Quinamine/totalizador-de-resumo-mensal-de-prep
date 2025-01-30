@@ -205,6 +205,11 @@ div:hover > .ficha__header__indicador--rotate {
         margin-right: -2px;
     }
 }
+@media print {
+    .ficha__col-de-indicadores {
+        border-right: none !important;
+    }
+}
 .ficha__num-de-linha.--highlight {
     background-color: var(--orange);
     color: var(--cor-de-texto);

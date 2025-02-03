@@ -2,7 +2,7 @@
 
 ![Trecho do Totalizador do Resumo Trimestral de APSS/PP](imagens/totalizador-de-resumo-mensal-de-prep.png)
 
-O **Totalizador de Resumo Mensal de PrEP** é um serviço online gratuito que auxilia na elaboração, como o nome sugere, do resumo mensal de PrEP (Profilaxia Pré-Exposição) por meio do cálculo automático dos totais com base nos dados preenchidos pelo usuário. Foi criado de acordo com o modelo da ficha de resumo trimestral de APSS/PP actualmente vigente no Serviço Nacional de Saúde em Moçambique.
+O **Totalizador de Resumo Mensal de PrEP** é um serviço online gratuito que auxilia na elaboração, como o nome sugere, do resumo mensal de PrEP (Profilaxia Pré-Exposição) por meio do cálculo automático dos totais com base nos dados inseridos pelo usuário. Foi criado de acordo com o modelo da ficha de resumo trimestral de APSS/PP actualmente vigente no Serviço Nacional de Saúde em Moçambique.
 
 
 ## Objectivos

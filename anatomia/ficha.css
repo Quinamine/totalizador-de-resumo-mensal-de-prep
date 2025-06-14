@@ -8,12 +8,12 @@
     margin: 30px auto 0;
     font-size: 15px;
     font-weight: 700;
-    color: var(--gray--5);
+    color: var(--gray-five);
 }
 @media print {
     .ficha {
         margin-top: 0;
-        color: var(--fullblack);
+        color: var(--black);
     }
 }
 .ficha span {
@@ -117,7 +117,7 @@
         background-color: var(--yt);
         z-index: 333;
     }
-    .body-com-topo-propaganda .ficha__body__header {
+    .body-com-topo-info .ficha__body__header {
         top: 36px;
     }
 }
@@ -162,7 +162,7 @@
 }
 div:hover > .ficha__header__indicador--rotate {
     transform: rotate(0deg);
-    box-shadow: 0 0 4px var(--gray--a);
+    box-shadow: 0 0 4px var(--gray-a);
     padding: 4px;
     background-color: var(--greenyellow);
     z-index: 2;
@@ -240,7 +240,7 @@ div:hover > .ficha__header__indicador--rotate {
     color: var(--yt)
 }
 .input--bg-color-dark {
-    background-color: var(--fullblack);
+    background-color: var(--black);
     color: var(--yt)
 }
 .input--fs-small {
@@ -250,8 +250,8 @@ div:hover > .ficha__header__indicador--rotate {
     font-size: 11px;
 }
 .celula-nao-aplicavel {
-    background-color: var(--fullblack);
-    border-color: var(--fullblack);
+    background-color: var(--black);
+    border-color: var(--black);
 }
 .ficha__rodape {
     display: grid;
@@ -304,7 +304,7 @@ div:hover > .ficha__header__indicador--rotate {
     color: var(--gray);
 }
 .ficha-validacao__header > div:nth-child(n+2) b {
-    color: var(--gray--5);
+    color: var(--gray-five);
 }
 .ficha__titulo--no-margin-neg {
     margin-bottom: 15px;

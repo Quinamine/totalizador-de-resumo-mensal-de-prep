@@ -1095,9 +1095,10 @@ details[open] .details__summary {
     }
     .ficha__url-pub {
         display: block;
-        font-size: 12px;
-        margin-top: 5px;
+        font-size: 10px;
         font-weight: 400;
+        color: #555555;
+        margin-top: 5px;
     }
     .ficha__url-pub__link {
         color: var(--blue);

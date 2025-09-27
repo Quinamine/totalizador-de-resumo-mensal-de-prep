@@ -1103,7 +1103,7 @@ details[open] .details__summary {
 }
 @media print {
     @page {
-        margin: .5cm .5cm .4cm .5cm;
+        margin: .5cm;
          size: A4 landscape;
     }
     .--no-print {
@@ -1114,7 +1114,10 @@ details[open] .details__summary {
         font-size: 10px;
         font-weight: 400;
         color: #555555;
-        margin-top: 5px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 1000000000;
     }
     .ficha__url-pub__link {
         color: var(--blue);

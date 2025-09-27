@@ -107,7 +107,7 @@
 }
 .ficha__body__header {
     display: grid;
-    grid-template-columns: 30px 210px repeat(2, 160px 40px) 80px calc(40px * 12);
+    grid-template-columns: 30px 210px repeat(2, 160px 40px) 80px calc(40px * 13);
     margin-left: 30px;
 }
 @media screen {
@@ -167,12 +167,12 @@ div:hover > .ficha__header__indicador--rotate {
     background-color: var(--greenyellow);
     z-index: 2;
 }
-.ficha__header__grid--template-cols-12 {
-    grid-template-columns: repeat(12, 40px);
+.ficha__header__grid--template-cols-13 {
+    grid-template-columns: repeat(13, 40px);
 }
 .ficha__body__grid-template-cols-4 {
     display: grid;
-    grid-template-columns: repeat(2, 30px) 210px calc(24* 40px);
+    grid-template-columns: repeat(2, 30px) 210px calc(25* 40px);
     line-height: 1.4;
 }
 .ficha__body__col-1 {
@@ -221,7 +221,7 @@ div:hover > .ficha__header__indicador--rotate {
 .ficha__col-de-inputs__row {
     display: grid;
     grid-template-rows: 100px;
-    grid-template-columns: repeat(24, 40px);
+    grid-template-columns: repeat(25, 40px);
 }
 [data-total]:focus,
 .input-celular--focus:focus,

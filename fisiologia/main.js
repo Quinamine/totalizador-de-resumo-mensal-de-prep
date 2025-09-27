@@ -27,6 +27,20 @@ const totalizador = {
         let operandos = document.querySelectorAll(`.${classNameDosOperandos}`);
         let celulaDeSaida = document.querySelector(`.${inputTarget.dataset.totaloutput}`);
         celulaDeSaida.value = this.somar(operandos);
+        if(inputTarget.dataset.totalv) {
+            classNameDosOperandos = inputTarget.dataset.totalv;
+            inputTarget.classList.add(`${classNameDosOperandos}`);  
+            operandos = document.querySelectorAll(`.${classNameDosOperandos}`);
+            celulaDeSaida = document.querySelector(`.${inputTarget.dataset.totalvoutput}`);
+            celulaDeSaida.value = this.somar(operandos);
+        }
+        if(inputTarget.dataset.totalgeralv) {
+            classNameDosOperandos = inputTarget.dataset.totalgeralv;
+            inputTarget.classList.add(`${classNameDosOperandos}`);  
+            operandos = document.querySelectorAll(`.${classNameDosOperandos}`);
+            celulaDeSaida = document.querySelector(`.${inputTarget.dataset.totalgeralvoutput}`);
+            celulaDeSaida.value = this.somar(operandos);
+        }
     },
     somar(celulasPorTotalizar) {
         let soma = 0;
